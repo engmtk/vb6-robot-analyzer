@@ -94,4 +94,3 @@ Escolha um projeto que tenha:
 - poucas dependências comerciais;
 - licença permitindo estudo e engenharia reversa do próprio build.
 
-Primeiro catalogamos o fonte original. Depois compilamos, analisamos somente o EXE e comparamos cada item recuperado. Isso transforma “parece funcionar” em uma medição objetiva de cobertura.
