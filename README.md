@@ -1,4 +1,4 @@
-# VB6 Gambeta Master — Analisador de executáveis legados
+# VB6 Gambeta Master - Analisador de executáveis legados
 
 MVP para inventariar executáveis legados VB5/VB6 sem executá-los. O objetivo é recuperar evidências técnicas úteis para documentação e migração, não prometer a reconstrução exata do código-fonte original.
 
