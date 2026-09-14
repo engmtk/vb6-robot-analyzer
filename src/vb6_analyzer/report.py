@@ -72,7 +72,7 @@ section{{margin-top:18px;padding:20px}} h2{{font-size:18px;margin:0 0 14px}} .me
 <section><h2>DLLs e funções importadas</h2>{_table(['Biblioteca','Funções (até 30)','Total'], import_rows)}</section>
 <section><h2>Artefatos encontrados</h2>{_table(['Categoria','Valor','Confiança','Origem'], finding_rows)}</section>
 <section><h2>Seções PE</h2>{_table(['Seção','RVA','Tamanho virtual','Tamanho em disco','Flags'], section_rows)}</section>
-<footer>Relatório gerado pelo VB6 Robot Analyzer {report.analyzer_version}. Resultados são evidências para revisão humana, não reconstrução exata do fonte.</footer>
+<footer>Relatório gerado VB6 Gambeta Master — Analisador de executáveis legados {report.analyzer_version}. Resultados são evidências para revisão humana, não reconstrução exata do fonte.</footer>
 </main></body></html>"""
     path.write_text(document, encoding="utf-8")
     return path

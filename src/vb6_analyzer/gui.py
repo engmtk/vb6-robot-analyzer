@@ -14,7 +14,7 @@ from .report import write_reports
 class AnalyzerApp(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
-        self.title("VB6 Robot Analyzer")
+        self.title("VB6 Gambeta Master - Analisador de executáveis legados")
         self.geometry("1120x720")
         self.minsize(850, 560)
         self.report: AnalysisReport | None = None
@@ -34,7 +34,7 @@ class AnalyzerApp(tk.Tk):
     def _build(self) -> None:
         header = ttk.Frame(self, padding=(22, 18))
         header.pack(fill="x")
-        ttk.Label(header, text="VB6 Robot Analyzer", style="Title.TLabel").pack(anchor="w")
+        ttk.Label(header, text="VB6 Gambeta Master - Analisador de executáveis legados", style="Title.TLabel").pack(anchor="w")
         ttk.Label(header, text="Inventário estático de executáveis legados — nenhum EXE analisado é executado.", style="Sub.TLabel").pack(anchor="w", pady=(3, 14))
 
         chooser = ttk.Frame(header)

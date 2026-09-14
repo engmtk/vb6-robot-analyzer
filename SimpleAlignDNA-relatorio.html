@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VB6 Robot Analyzer — SimpleAlignDNA.exe</title>
+<style>
+:root{--bg:#f4f7fb;--panel:#fff;--ink:#182230;--muted:#667085;--brand:#155eef;--line:#dfe5ee;--warn:#9a6700}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 Segoe UI,Arial,sans-serif}
+header{background:#101828;color:white;padding:28px max(24px,calc((100% - 1180px)/2))} header h1{margin:0 0 6px;font-size:26px} header p{margin:0;color:#cbd5e1}
+main{max-width:1180px;margin:24px auto;padding:0 20px 48px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.card,section{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 2px 8px #1018280a} .card{padding:16px;min-height:92px} .card span{display:block;color:var(--muted);font-size:12px;margin-bottom:7px} .card strong{font-size:15px}
+section{margin-top:18px;padding:20px} h2{font-size:18px;margin:0 0 14px} .meta{display:grid;grid-template-columns:150px 1fr;gap:7px 14px} .meta dt{color:var(--muted)} .meta dd{margin:0;word-break:break-all}
+.table-wrap{overflow:auto} table{width:100%;border-collapse:collapse} th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} th{background:#f8fafc;color:#344054;position:sticky;top:0} td:nth-child(2){word-break:break-word}
+.warning{border-left:4px solid #f5b700;background:#fffaeb} .empty{color:var(--muted)} code{font-family:Consolas,monospace} footer{color:var(--muted);margin-top:20px}
+</style></head><body>
+<header><h1>VB6 Robot Analyzer</h1><p>Análise estática de SimpleAlignDNA.exe — o executável não foi iniciado.</p></header>
+<main><div class="grid"><div class='card'><span>Tecnologia</span><strong>Visual Basic 6 · confiança alta</strong></div><div class='card'><span>Arquitetura</span><strong>x86 (32 bits)</strong></div><div class='card'><span>Subsistema</span><strong>Windows GUI</strong></div><div class='card'><span>Modo VB6</span><strong>Ainda não determinado (Native Code ou P-Code) · confiança baixa</strong></div><div class='card'><span>Bibliotecas</span><strong>1</strong></div><div class='card'><span>Evidências</span><strong>1</strong></div></div>
+<section><h2>Identificação</h2><dl class="meta">
+<dt>Arquivo</dt><dd>SimpleAlignDNA.exe</dd><dt>Tamanho</dt><dd>49,152 bytes</dd>
+<dt>SHA-256</dt><dd><code>2221690a20bcd1bc65e06ef9f353796a223cef3d26fa60aecf5a12ed10c504c0</code></dd><dt>Analisado em</dt><dd>2026-09-12T03:30:35.994568+00:00</dd>
+<dt>Timestamp PE</dt><dd>2021-11-11T20:49:27+00:00</dd>
+<dt>Entry point</dt><dd>0x0000146C</dd><dt>Image base</dt><dd>0x400000</dd></dl></section>
+<section class="warning"><h2>Limites e alertas</h2><ul><li>O modo de compilação VB6 é uma inferência pendente neste MVP; não confunda com a arquitetura x86 do PE.</li></ul></section>
+<section><h2>Arquitetura funcional inferida</h2><div class='table-wrap'><table><thead><tr><th>Capacidade</th><th>Confiança</th><th>Evidência</th></tr></thead><tbody><tr><td>Leitura ou gravação de arquivos</td><td>alta</td><td>caminhos ou FileSystemObject</td></tr></tbody></table></div></section>
+<section><h2>DLLs e funções importadas</h2><div class='table-wrap'><table><thead><tr><th>Biblioteca</th><th>Funções (até 30)</th><th>Total</th></tr></thead><tbody><tr><td>MSVBVM60.DLL</td><td>__vbaVarSub, __vbaVarTstGt, __vbaStrI2, _CIcos, _adj_fptan, __vbaVarMove, __vbaVarVargNofree, __vbaFreeVar, __vbaLenBstr, __vbaFreeVarList, _adj_fdiv_m64, __vbaFreeObjList, _adj_fprem1, __vbaStrCat, __vbaHresultCheckObj, __vbaLenVar, _adj_fdiv_m32, __vbaVarCmpGe, __vbaVarForInit, __vbaExitProc, __vbaObjSet, __vbaOnError, ordinal:595, _adj_fdiv_m16i, _adj_fdivr_m16i, __vbaVarIndexLoad, __vbaBoolVarNull, _CIsin, ordinal:632, __vbaVarCmpGt …</td><td>71</td></tr></tbody></table></div></section>
+<section><h2>Artefatos encontrados</h2><div class='table-wrap'><table><thead><tr><th>Categoria</th><th>Valor</th><th>Confiança</th><th>Origem</th></tr></thead><tbody><tr><td>Caminho local</td><td>C:\Program Files\Microsoft Visual Studio\VB98\VB6.OLB</td><td>alta</td><td>string embutida</td></tr></tbody></table></div></section>
+<section><h2>Seções PE</h2><div class='table-wrap'><table><thead><tr><th>Seção</th><th>RVA</th><th>Tamanho virtual</th><th>Tamanho em disco</th><th>Flags</th></tr></thead><tbody><tr><td>.text</td><td>0x00001000</td><td>33784</td><td>36864</td><td>0x60000020</td></tr><tr><td>.data</td><td>0x0000A000</td><td>2592</td><td>4096</td><td>0xC0000040</td></tr><tr><td>.rsrc</td><td>0x0000B000</td><td>2308</td><td>4096</td><td>0x40000040</td></tr></tbody></table></div></section>
+<footer>Relatório gerado VB6 Gambeta Master — Analisador de executáveis legados 0.1.0. Resultados são evidências para revisão humana, não reconstrução exata do fonte.</footer>
+</main></body></html>
